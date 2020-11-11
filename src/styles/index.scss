@@ -12,8 +12,40 @@ body {
   width: 18rem;
 }
 .shark-tank-container {
-  background-color: lightblue;
+  background-image: url(https://blog.barracuda.com/wp-content/uploads/2020/02/Barbara-Corcoran-phishing-scam.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:100% 100%;
+  background-size:cover;
+  h2 {
+    color: black;
+  }
+}
+.shark-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  .card {
+    margin: 20px;
+    height: 150px;
+  }
 }
 .graveyard-container {
-  background-color: grey;
+  background-image: url(https://i.pinimg.com/originals/d7/38/d5/d738d5a50c4a18e66b2c2871da8f4481.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:100% 100%;
+  background-size:cover;
+  h2 {
+    color: white;
+  }
+}
+.graveyard-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  .card {
+    margin: 20px;
+    height: 150px;
+  }
 }
