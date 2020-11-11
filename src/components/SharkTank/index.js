@@ -12,7 +12,7 @@ export default class SharkTank extends Component {
         <button className='btn btn-danger' onClick={followTheLight}>
             SHARK ATTACK!!!
         </button>
-          {renderStudentToTankDom()}
+          <div className='shark-cards'>{renderStudentToTankDom()}</div>
         </div>
       </div>
     );

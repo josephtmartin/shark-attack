@@ -9,7 +9,7 @@ export default class Graveyard extends Component {
       <div className='graveyard-container'>
         <h2>Graveyard</h2>
         <div className='graveyard'>
-          {renderStudentToGraveDom()}
+          <div className='graveyard-cards'>{renderStudentToGraveDom()}</div>
         </div>
       </div>
     );
