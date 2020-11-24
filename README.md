@@ -1,4 +1,7 @@
 # Shark Attack
+This site grabs data from firebase of all the students in Evening Cohort 13 and when you click the shark attack button it selects a random classmate and puts them in the graveyard
+
+## Motivation
 This site was built to solidify our knowledge of React, specifically passing props and state.
 
 ## Site Link/Build Status
