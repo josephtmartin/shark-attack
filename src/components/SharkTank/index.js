@@ -4,7 +4,7 @@ import LiveStudent from '../LiveStudent';
 export default class SharkTank extends Component {
   render() {
     const { liveStudent, followTheLight } = this.props;
-    const renderStudentToTankDom = () => liveStudent.map((student) => <LiveStudent key={student.id} liveStudent={student} followTheLight={this.followTheLight} />);
+    const renderStudentToTankDom = () => liveStudent.map((student) => <LiveStudent key={student.id} liveStudent={student} />);
     return (
       <div className='shark-tank-container'>
         <h2>Shark Tank</h2>
