@@ -16,7 +16,7 @@ const dearlyBeloved = () => new Promise((resolve, reject) => {
   }).catch((error) => reject(error));
 });
 
-export default {
+export {
   livingStudents,
   dearlyBeloved,
 };
