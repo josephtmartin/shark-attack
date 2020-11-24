@@ -1,7 +1,6 @@
 import axios from 'axios';
-import apiKeys from '../../apiKeys.json';
 
-const baseUrl = apiKeys.firebaseKeys.databaseURL;
+const baseUrl = 'https://shark-attack-d3955.firebaseio.com/';
 
 const livingStudents = () => new Promise((resolve, reject) => {
   axios.get(`${baseUrl}/students.json?orderBy="isDead"&equalTo=false`).then((response) => {
