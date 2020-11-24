@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import SharkTank from '../components/SharkTank';
 import Graveyard from '../components/Graveyard';
-import data from '../helpers/data/studentsData';
+import { livingStudents, dearlyBeloved } from '../helpers/data/studentsData';
 
 class App extends React.Component {
   state = {
@@ -16,11 +16,11 @@ class App extends React.Component {
   }
 
   getLiveStudents = () => {
-    data.livingStudents().then((response) => this.setState({ liveStudents: response }));
+    livingStudents().then((response) => this.setState({ liveStudents: response }));
   }
 
   getDeadStudents = () => {
-    data.dearlyBeloved().then((response) => this.setState({ deadStudents: response }));
+    dearlyBeloved().then((response) => this.setState({ deadStudents: response }));
   }
 
   followTheLight = () => {
